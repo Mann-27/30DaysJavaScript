@@ -27,6 +27,7 @@ arr1.map((i)=>{
  res.push(i*2);
 })
 console.log(`Updated array after using map is :${res}`);
+console.log(`Updated array after using map is :${newArr}`);
 console.log(`Original Array is :${arr1}`);
 const even=(num)=>{
     return num%2==0;
