@@ -58,8 +58,7 @@ days.forEach((day) => {
 });
 
 console.log('---------Multidimensional Array,Task12,13-----------------');
-let n=2;
-let m=2;
+
 const multiArr=[
     [1,2,3],
     [4,5,6],
