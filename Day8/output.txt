@@ -1,0 +1,45 @@
+-----Task1,2:Template Literals------------
+Used Template Literal .UserName is Mann and age is :22
+Using Multiline String.
+ My name is :Mann
+---------Destructuring-----------
+[ 7, 8, 9 ]
+First element of array is 7 and Second Element is :8
+---Object Destructuring---
+{ title: 'Believe in Yourself', author: 'Jeff Murphy' }
+Title of the book is :Believe in Yourself and Author of the book is :Jeff Murphy
+-----------Task5,6Spread and Rest Operator-------------
+---------Task-5,Spread Operator------
+Existing array:7,8,9
+New array with existing elements:1,2,3,7,8,9
+----------Rest Operator-------------
+Rest parameter sum values are:21
+------------Task-7(Default Parameter)-------------
+Product of 10 and 7 without second parameter is :100
+Product of 10 and 7 with second parameter(default parameter) is :70
+------Enhanced Object Literals---------
+Task8:------
+{
+  firstName: 'Mann',
+  lastName: 'Merwana',
+  learningStatus: 'with moderate speed',
+  learningMotto: [Function: learningMotto],
+  userInfo: [Function: userInfo]
+}
+Learning motto is :Mann Merwana is learning js  with moderate speed
+First name of user is :Mann and Last name of the user is:Merwana
+Task 9:
+{
+  firstName: 'Mann',
+  lastName: 'Merwana',
+  learningStatus: 'with moderate speed',
+  learningMotto: [Function: learningMotto],
+  userInfo: [Function: userInfo],
+  name: 'Mann',
+  gender: 'Male',
+  age: 22,
+  userDetails: [Function: userDetails]
+}
+Name is :Mann,Gender is :Male,Age is :22
+Printing Gender using property2=gender :Male
+PS D:\Web Development\HTML_CSS_JS\Javascript\Basics\30DaysJs\Day8>

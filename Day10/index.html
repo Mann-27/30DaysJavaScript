@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10,Events</title>
+    <style>
+           
+             body{
+                background-color: black;
+                color:white;
+             }
+          
+            .changeBgColor{
+                border:1px solid white;
+                text-align: center;
+            }
+    </style>
+</head>
+      
+<body>
+    <h1>Day 10,Events </h1>
+
+    <h2>Event listener that changes text content of a paragraph</h2>
+
+    <p class="para">The text of this paragraph will be changed. </p>
+    <button class="changeText">Change Text</button>
+  
+    <br><br><br>
+    <p>Double click on the image  to toggle visibility of image.</p>
+   
+    <img class ="img"src="https://media.istockphoto.com/id/1445933728/photo/male-hand-turn-off-the-light-on-wall-lamp.jpg?s=1024x1024&w=is&k=20&c=UaBe6RWKe1xcOuf2X3BXqgb4fKO9pWTbAQMbTza7ZGw=" alt="image" width="300px" height="200px"/>
+   
+    <h2>Mouseover and mouseout event to change background-color of div element.</h2>
+    <div class="changeBgColor">
+        <p>This is a paragraph inside a div.</p>
+    </div>
+
+    <h2>Keyboard events ,keydown and keyup</h2>
+    <div> 
+        <label for="inputfield">Input Field</label>
+      <input type="text" placeholder="press any key" id="keydown"> <br>
+      
+        Type text,to display current value in paragraph:<input type="text" placeholder="press any key" id="keyup">
+        <p class="currentText"> </p>
+    </div>
+
+    <h2>Form Events</h2>
+    <form action="" id="form">
+        <label for="username">Username:</label>
+       <input type="text" id="username"/>
+       <button class="submitBtn">Submit</button>
+    </form>
+
+    <label for="dropdown">Select a language</label>
+    <select name="" id="selectedVal">
+
+        <option >JavaScript</option>
+        <option >Java</option>
+        <option >Python</option>
+    </select>
+    <p class='currentValue'></p>
+
+    <h2>Event Delegation</h2>
+
+    <ul class="list">
+        <li>Aptitude</li>
+        <li>Projects</li>
+        <li>DSA</li>
+    </ul>
+    <button id="addItemBtn">Add Item</button>
+    <ul class="days">
+        <!-- dynamic child li will be added here -->
+    </ul>
+    <script src="/30DaysJs/Day10/events.js"></script>
+</body>
+</html>

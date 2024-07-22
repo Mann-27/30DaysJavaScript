@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    
+   
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width:100%;
+}
+.changeBorderColor{
+    border:2px solid  aqua;
+    height:200px;
+    width:400px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+.changePara{
+    border:2px solid black;
+    padding:1rem;
+    margin-bottom: 1rem;
+}
+p{
+    margin:1rem;
+}
+.img{
+    background-position: center;
+    background-repeat: no-repeat;
+    width:700px;
+    height:400px;
+    background-size: cover;
+    padding:1rem;
+    border:2px solid black;
+}
