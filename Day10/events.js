@@ -53,11 +53,11 @@ keyboardEvents();
 
 // task 7: Add a submit event listener to a form that prevents the default submission and logs the form data to the console.
 
-document.querySelector('form').addEventListener('submit', (e)=>{
+document.querySelector('#form').addEventListener('submit', (e)=>{
     e.preventDefault();
 
-const formData =  new FormData(e.target);
-const data= Object.fromEntries(formData.entries());
+const username=document.getElementById('username').value;
+console.log(`Form submitted by ${username}`);
 
 console.log(data);
 })
