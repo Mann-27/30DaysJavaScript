@@ -1,0 +1,8 @@
+{"type":"module",
+"dependencies":
+{
+"module":"^1.2.5",
+"modules":"^0.4.0",
+"sum":"^0.1.4"
+}
+}
